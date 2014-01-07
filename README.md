@@ -1,12 +1,21 @@
-# SimpleTum
+# SimpleTum 
 
 SimpleTum is a few simple bash scripts to rip content from tumblr blogs.
 
-**Usage:** ('tag' is optional allowing you to download only the posts with any given tag)
+Usage
+-------------
 
-* ./simpletum.sh example.tumblr.com tag
+./simpletum.sh example.tumblr.com tag
 
-simplevid/pho are seperate rippers for video and photo content.
+'tag' is optional allowing you to download only the posts with given tag.
+
+Standalone Rippers
+-------------
+* simplevid.sh - Videos only
+* simplepho.sh - Photos only
+* simpleurl.sh - Write urls to file (photos only, this was written to get urls to paste to imgur for rehosting)
+
+ 
+-------------
 
 json.sh is [JSON.sh](https://github.com/dominictarr/JSON.sh)
-
