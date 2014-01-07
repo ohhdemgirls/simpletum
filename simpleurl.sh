@@ -17,5 +17,5 @@ do
 	sort -u >> "$basehost.txt"; 
 	offset=$((offset+20))
 	clear 
-	echo "[+] Writting URL's to $basehost.txt"
+	echo "[+] Writing URL's to $basehost.txt"
 done
